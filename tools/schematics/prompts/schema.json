@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "prompts",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the person to 👋 to.",
+      "default": "Victor",
+      "x-prompt": "What is the name of the person you want to say hi to?"
+    },
+    "fileExtension": {
+      "enum": ["ts", "html", "css", "spec.ts"],
+      "description": "The file extension type",
+      "default": "ts",
+      "x-prompt": "Select a file type extension"
+    }
+  }
+}
