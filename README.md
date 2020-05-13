@@ -93,5 +93,5 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
 ## Helpful Commands
 
-- ng g workspace-schematic hello-world
-- nx workspace-schematic hello-world -d
+ng g workspace-schematic name
+nx workspace-schematic name -d
