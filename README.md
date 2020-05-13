@@ -82,3 +82,13 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
+
+## Tutorial Links
+
+- https://github.com/blove/schematics-workshop/wiki/Exercise-1:--hello-world
+- https://app.pluralsight.com/player?course=ng-conf-19-schematic-odyssee&author=ng-conf&name=295054ea-c251-412e-ace4-de648c134cc6&clip=0&mode=live
+
+## Helpful Commands
+
+- ng g workspace-schematic hello-world
+- nx workspace-schematic hello-world -d
