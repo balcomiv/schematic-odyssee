@@ -94,6 +94,8 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 - https://auth0.com/blog/create-custom-schematics-with-nx/
 - https://auth0.com/blog/real-world-angular-series-part-1/
 
+- https://www.angulararchitects.io/aktuelles/automating-your-angular-architecture-with-workspace-schematics-part-1-rules-and-parameters/
+
 ## Helpful Commands
 
 ng g workspace-schematic strings
@@ -106,3 +108,5 @@ _Note the extra -- when using npm. This is required so these options are conside
 - ng g workspace-schematic ngrx-lib
 - npm run workspace-schematic ngrx-lib airports -- --directory=trip-planner
 - nx workspace-schematic ngrx-lib airports --directory=trip-planner --dry-run
+
+nx workspace-schematic sample --name="test-name"
