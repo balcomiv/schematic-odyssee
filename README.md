@@ -98,6 +98,7 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
 ng g workspace-schematic strings
 nx workspace-schematic strings -d
+nx workspace-schematic strings --name="test-name" --browser-type="netscape" -d
 
 _Note the extra -- when using npm. This is required so these options are considered options for the workspace-schematic instead of npm itself._
 
