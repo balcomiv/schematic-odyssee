@@ -104,4 +104,4 @@ _Note the extra -- when using npm. This is required so these options are conside
 - https://gist.github.com/ThomasBurleson/30e45a6bc61f0d53fe07045d69b548e6
 - ng g workspace-schematic ngrx-lib
 - npm run workspace-schematic ngrx-lib airports -- --directory=trip-planner
-- nx workspace-schematic ngrx-lib airports -- --directory=trip-planner --dry-run
+- nx workspace-schematic ngrx-lib airports --directory=trip-planner --dry-run
