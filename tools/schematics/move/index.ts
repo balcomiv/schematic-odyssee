@@ -10,13 +10,7 @@ import {
 
 export default function(_options: any): Rule {
   return (tree: Tree, context: SchematicContext) => {
-    // const rules: Rule[] = [];
-
-    const rules: Rule[] = [
-      // template({ ...strings, ..._options }),
-      template({}),
-      move('./')
-    ];
+    const rules: Rule[] = [];
 
     // todo: use the url() function to retrieve the source from the './files' directory
     const source = url('./files');
