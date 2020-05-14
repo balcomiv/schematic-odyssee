@@ -96,8 +96,8 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
 ## Helpful Commands
 
-ng g workspace-schematic move
-nx workspace-schematic move -d
+ng g workspace-schematic strings
+nx workspace-schematic strings -d
 
 _Note the extra -- when using npm. This is required so these options are considered options for the workspace-schematic instead of npm itself._
 

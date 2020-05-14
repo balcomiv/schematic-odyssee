@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "strings",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the component",
+      "default": "ng-conf",
+      "x-prompt": "Enter the name of the component"
+    },
+    "browserType": {
+      "enum": ["netscape", "internetExplorer"],
+      "description": "Supported browser",
+      "default": "netscape",
+      "x-prompt": "Select the supported browser"
+    }
+  }
+}
