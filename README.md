@@ -91,6 +91,9 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
 - https://astexplorer.net/
 
+- https://auth0.com/blog/create-custom-schematics-with-nx/
+- https://auth0.com/blog/real-world-angular-series-part-1/
+
 ## Helpful Commands
 
 ng g workspace-schematic name

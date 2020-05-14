@@ -8,9 +8,18 @@ import {
   move
 } from '@angular-devkit/schematics';
 
-export default function(_options: any): Rule {
+import { strings } from '@angular-devkit/core';
+
+interface AddFilesInterface {
+  name: string;
+}
+
+export default function(_options: AddFilesInterface): Rule {
   return (tree: Tree, context: SchematicContext) => {
-    const rules: Rule[] = [];
+    const rules: Rule[] = [
+      template({ ...strings, ..._options }),
+      move('sandbox/src/components')
+    ];
 
     // todo: use the url() function to retrieve the source from the './files' directory
     const source = url('./files');
