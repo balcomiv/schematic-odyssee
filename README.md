@@ -96,5 +96,12 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
 ## Helpful Commands
 
-ng g workspace-schematic name
-nx workspace-schematic name -d
+ng g workspace-schematic move
+nx workspace-schematic move -d
+
+_Note the extra -- when using npm. This is required so these options are considered options for the workspace-schematic instead of npm itself._
+
+- https://gist.github.com/ThomasBurleson/30e45a6bc61f0d53fe07045d69b548e6
+- ng g workspace-schematic ngrx-lib
+- npm run workspace-schematic ngrx-lib airports -- --directory=trip-planner
+- nx workspace-schematic ngrx-lib airports -- --directory=trip-planner --dry-run
