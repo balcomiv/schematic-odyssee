@@ -14,3 +14,5 @@
 '<%= dasherize(selector) %>';
 '<%= dasherize(name) %>';
 '<%= dasherize(style) %>';
+export class <%= classify(name) %>Component {
+}
